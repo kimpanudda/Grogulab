@@ -1,3 +1,30 @@
-.grogu {
-	font-size: 12px;
+.italic-text {
+	font-style: italic; /* Class applies to many elements*/
+}
+
+#bold-text-cool {
+	font-style: bold; /* ID is unique to one element*/ 
+}
+
+.body {
+	background-color: rgb(253, 245, 230);
+}
+
+.with-border {
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+
+.box {
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	width: 500px;
+	height: 900px;
+	padding-top: 10px;
+	padding-right: 100px;
+	padding-left: 10px;
+	padding-bottom: 10 px;
+	background-color: rgb(253, 245, 230);
 }
